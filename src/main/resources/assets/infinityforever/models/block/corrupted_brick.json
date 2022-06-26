@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinityforever:blocks/corruptedbrick",
+    "up": "infinityforever:blocks/corruptedbrick",
+    "north": "infinityforever:blocks/corruptedbrick",
+    "east": "infinityforever:blocks/corruptedbrick",
+    "south": "infinityforever:blocks/corruptedbrick",
+    "west": "infinityforever:blocks/corruptedbrick",
+    "particle": "infinityforever:blocks/corruptedbrick"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id_map": {
+    "DIMENSION": 1,
+    "ENTITY": 2
+  },
+  "mod_elements": [
+    {
+      "name": "FloorOneBiome",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floor_one_biome"
+    },
+    {
+      "name": "FloorOne",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      },
+      "registry_name": "floor_one",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "AstralGem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_gem"
+    },
+    {
+      "name": "FloorOneEnter",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floor_one_enter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorruptedBrick",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_brick"
+    },
+    {
+      "name": "FloorOneExit",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "floor_one_exit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Slasher",
+      "type": "mob",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "slasher"
+    },
+    {
+      "name": "SlasherBlade",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slasher_blade"
+    },
+    {
+      "name": "AstraliteOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astralite_ore"
+    },
+    {
+      "name": "RawAstralite",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_astralite"
+    },
+    {
+      "name": "AstraliteBar",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astralite_bar"
+    },
+    {
+      "name": "RawAstraliteToAstraliteBar",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_astralite_to_astralite_bar"
+    },
+    {
+      "name": "AstralGemRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "astral_gem_recipe"
+    },
+    {
+      "name": "AmythestineOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amythestine_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmythestineOre",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amythestine_ore"
+    },
+    {
+      "name": "Amythestineingot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amythestineingot"
+    },
+    {
+      "name": "Amythestineingotrecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amythestineingotrecipe"
+    },
+    {
+      "name": "Slashersword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slashersword"
+    },
+    {
+      "name": "Slasherswordrecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slasherswordrecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.raw_astralite.name": "Raw Astralite",
+      "item.astralite_bar.name": "Astralite Bar",
+      "entity.slasher.name": "Slasher",
+      "item.amythestineingot.name": "Amythestineingot",
+      "tile.amythestine_ore.name": "Amythestine Ore",
+      "tile.corrupted_brick.name": "Corrupted Brick",
+      "tile.astralite_ore.name": "Astralite Ore",
+      "item.slashersword.name": "Slashersword",
+      "item.floor_one.name": "Floor One Portal Igniter",
+      "item.astral_gem.name": "Astral Gem",
+      "item.slasher_blade.name": "Slasher Blade"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "infinityforever",
+    "modName": "InfinityForever",
+    "version": "1.0.0",
+    "author": "Alex, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.infinityforever",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

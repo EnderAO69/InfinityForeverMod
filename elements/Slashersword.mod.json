@@ -1,0 +1,27 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "slashersword",
+    "customModelName": "Normal",
+    "name": "Slashersword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.5,
+    "enchantability": 2,
+    "damageVsEntity": 50.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

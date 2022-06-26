@@ -1,0 +1,42 @@
+{
+  "group": "infinityforever",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "infinityforever:amythestineingot"
+    },
+    "1": {
+      "item": "infinityforever:astralite_bar"
+    },
+    "2": {
+      "item": "infinityforever:amythestineingot"
+    },
+    "3": {
+      "item": "infinityforever:astralite_bar"
+    },
+    "4": {
+      "item": "infinityforever:slasher_blade"
+    },
+    "5": {
+      "item": "infinityforever:astralite_bar"
+    },
+    "6": {
+      "item": "infinityforever:amythestineingot"
+    },
+    "7": {
+      "item": "infinityforever:astralite_bar"
+    },
+    "8": {
+      "item": "infinityforever:amythestineingot"
+    }
+  },
+  "result": {
+    "item": "infinityforever:slashersword",
+    "count": 1
+  }
+}

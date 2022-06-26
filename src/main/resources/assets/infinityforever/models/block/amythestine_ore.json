@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinityforever:blocks/amathystineore",
+    "up": "infinityforever:blocks/amathystineore",
+    "north": "infinityforever:blocks/amathystineore",
+    "east": "infinityforever:blocks/amathystineore",
+    "south": "infinityforever:blocks/amathystineore",
+    "west": "infinityforever:blocks/amathystineore",
+    "particle": "infinityforever:blocks/amathystineore"
+  }
+}

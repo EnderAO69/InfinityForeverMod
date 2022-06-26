@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "infinityforever:blocks/astraliteore",
+    "up": "infinityforever:blocks/astraliteore",
+    "north": "infinityforever:blocks/astraliteore",
+    "east": "infinityforever:blocks/astraliteore",
+    "south": "infinityforever:blocks/astraliteore",
+    "west": "infinityforever:blocks/astraliteore",
+    "particle": "infinityforever:blocks/astraliteore"
+  }
+}
